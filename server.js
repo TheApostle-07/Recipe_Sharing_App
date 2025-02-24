@@ -253,6 +253,13 @@ app.use((err, req, res, next) => {
     });
   });
 
+app.get('/', (req, res) => {
+  res.json({
+    success: true,
+    message: "Welcome to the Recipe Sharing App API. Please refer to the documentation for available endpoints."
+  });
+});
+
 // -------------------
 // Start Server Function
 // -------------------
