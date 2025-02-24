@@ -1,23 +1,30 @@
 {
   "name": "recipe-sharing-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rufus Bright",
   "license": "ISC",
-  "description": "",
+  "description": "A full-featured Recipe Sharing App using Node.js, Express, and MongoDB.",
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "helmet": "^8.0.0",
-    "mongoose": "^8.10.1"
+    "mongoose": "^8.10.1",
+    "mongodb": "^5.7.0",
+    "whatwg-url": "^12.0.1",
+    "webidl2js": "^5.0.0",
+    "cors": "^2.8.5"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
